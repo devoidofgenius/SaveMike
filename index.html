@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+  <meta charset="utf-8" />
+  <title>Game</title>
+  <style>
+  body {
+  	background-color: #000;
+  	margin-top: 15px;
+  }
+
+	#game_div {
+		width: 800px;
+		height: 600px;
+		margin: 0 auto;
+		border-width: 2px;
+		border-style: solid;
+		border-color: #FFF; 
+	}
+
+	p {
+		text-align: center;
+		color: #FFF;
+		font-size: 18px;
+  		font-family: Helvetica, Arial, Sans-Serif;
+	}
+
+  </style>
+
+  <script type="text/javascript" src="phaser.min.js"></script>
+  <script type="text/javascript" src="phaser-arcade-physics.min.js"></script>
+  <script type="text/javascript" src="p2.min.js"></script>
+  <script type="text/javascript" src="game.js"></script>
+</head>
+
+<body>
+
+  <div id="game_div"> </div>
+  <div id="controls">
+  <p>Use the arrow keys to move your ship. Save every Mike the Frog to win.</p>
+  </div>
+
+</body>
+
+</html>
